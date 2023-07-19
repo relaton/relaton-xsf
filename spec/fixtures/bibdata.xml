@@ -1,0 +1,47 @@
+<bibdata type="standard" schema-version="v1.2.3">
+  <fetched>2023-07-18</fetched>
+  <title format="text/plain" language="en" script="Latn">XMPP Extension Protocols</title>
+  <uri type="src">http://xmpp.org/extensions/xep-0001.html</uri>
+  <docidentifier type="XEP" primary="true">XEP 0001</docidentifier>
+  <docidentifier type="XEP" scope="anchor">XEP-0001</docidentifier>
+  <docnumber>XEP-0001</docnumber>
+  <date type="published">
+    <on>2021-08-24</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Peter Saint-Andre</completename>
+      </name>
+      <email>xsf@stpeter.im</email>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Dave Cridland</completename>
+      </name>
+      <email>dave@hellopando.com</email>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename language="en">Ralph Meijer</completename>
+      </name>
+      <email>ralphm@ik.nu</email>
+    </person>
+  </contributor>
+  <language>en</language>
+  <script>Latn</script>
+  <series type="main">
+    <title format="text/plain" language="en" script="Latn">XSF XEP</title>
+    <number>0001</number>
+  </series>
+  <ext>
+    <doctype>rfc</doctype>
+  </ext>
+</bibdata>

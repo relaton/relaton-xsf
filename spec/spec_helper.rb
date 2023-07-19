@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "support/simplecov"
+Dir.glob("#{__dir__}/support/**/*.rb").sort.each { |f| require f }
 
 require "relaton_xsf"
 
