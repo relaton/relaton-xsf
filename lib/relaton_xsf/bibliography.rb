@@ -7,15 +7,15 @@ module RelatonXsf
     end
 
     def get(code, _year = nil, _opts = {})
-      warn "[relaton-xsf] (#{code}) fetching..."
+      Util.warn "(#{code}) fetching..."
       result = search(code)
       if result.empty?
-        warn "[relaton-xsf] (#{code}) nothing found"
+        Util.warn "(#{code}) nothing found"
         return
       end
 
       bib = result.first.fetch
-      warn "[relaton-xsf] (#{code}) found #{bib.docidentifier.first.id}"
+      Util.warn "(#{code}) found `#{bib.docidentifier.first.id}`"
       bib
     end
   end

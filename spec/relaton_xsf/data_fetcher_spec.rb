@@ -59,7 +59,7 @@ describe RelatonXsf::DataFetcher do
       it "duplications" do
         subject.instance_variable_set :@files, ["data/xep-0001.yaml"]
         expect { subject.write_doc bib }.to output(
-          "[relaton-xsf] WARNING: data/xep-0001.yaml already exists\n",
+          "WARNING: data/xep-0001.yaml already exists\n",
         ).to_stderr
       end
     end

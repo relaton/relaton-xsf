@@ -10,14 +10,14 @@ module RelatonXsf
     end
 
     def self.fetch(output: "data", format: "yaml")
-      warn "[relaton-xsf] fetching data to #{output} in #{format} format"
+      warn "fetching data to #{output} in #{format} format"
       t1 = Time.now
-      warn "[relaton-xsf] start at #{t1}"
+      warn "start at #{t1}"
       FileUtils.mkdir_p output
       new(output, format).fetch
       t2 = Time.now
       t = t2 - t1
-      warn "[relaton-xsf] finished at #{t2} (#{t.round} seconds)"
+      warn "finished at #{t2} (#{t.round} seconds)"
     end
 
     def index
@@ -39,7 +39,7 @@ module RelatonXsf
       id = bib.docidentifier.find(&:primary).id
       file = File.join @output, "#{id.gsub(' ', '-').downcase}.#{@ext}"
       if @files.include? file
-        warn "[relaton-xsf] WARNING: #{file} already exists"
+        warn "WARNING: #{file} already exists"
       end
       File.write file, serialize(bib), encoding: "UTF-8"
       @files << file

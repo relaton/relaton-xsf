@@ -1,4 +1,6 @@
 describe RelatonXsf::Bibliography do
+  before { RelatonXsf.instance_variable_set :@configuration, nil }
+
   context "get" do
     it "successful", vcr: "get_successful" do
       file = "spec/fixtures/bibdata.xml"
