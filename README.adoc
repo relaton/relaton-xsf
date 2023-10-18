@@ -38,13 +38,24 @@ Or install it yourself as:
 
 == Usage
 
-=== Search for a standard using keywords
+=== Configuration
+
+Configuration is optional. The available option is `logger` which is a `Logger` instance. By default, the logger is `Logger.new($stderr)` with `Logger::WARN` level. To change the logger level, use `RelatonXsf.configure` block.
 
 [source,ruby]
 ----
 require 'relaton_xsf'
 => true
 
+RelatonXsf.configure do |config|
+  config.logger.level = Logger::DEBUG
+end
+----
+
+=== Search for a standard using keywords
+
+[source,ruby]
+----
 hit_collection = RelatonXsf::Bibliography.search("XEP 0001")
 => <RelatonXsf::HitCollection:0x00000000019780 @ref=XEP 0001 @fetched=false>
 
@@ -81,8 +92,8 @@ item.to_xml bibdata: true
 [source,ruby]
 ----
 item = RelatonXsf::Bibliography.get "XEP 0001"
-[relaton-xsf] (XEP 0001) fetching...
-[relaton-xsf] (XEP 0001) found XEP 0001
+[relaton-xsf] (XEP 0001) Fetching from Relaton repository ...
+[relaton-xsf] (XEP 0001) Found `XEP 0001`
 => #<RelatonXsf::BibliographicItem:0x000000011275cd18
 ...
 
