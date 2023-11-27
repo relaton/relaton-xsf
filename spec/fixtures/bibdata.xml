@@ -1,5 +1,5 @@
-<bibdata type="standard" schema-version="v1.2.4">
-  <fetched>2023-07-18</fetched>
+<bibdata type="standard" schema-version="v1.2.5">
+  <fetched>2023-11-08</fetched>
   <title format="text/plain" language="en" script="Latn">XMPP Extension Protocols</title>
   <uri type="src">http://xmpp.org/extensions/xep-0001.html</uri>
   <docidentifier type="XEP" primary="true">XEP 0001</docidentifier>
@@ -14,7 +14,7 @@
       <name>
         <completename language="en">Peter Saint-Andre</completename>
       </name>
-      <email>xsf@stpeter.im</email>
+      <email>stpeter@stpeter.im</email>
     </person>
   </contributor>
   <contributor>
