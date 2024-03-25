@@ -68,7 +68,7 @@ item = hit_collection[0].fetch
 [source,ruby]
 ----
 item.to_xml
-=> "<bibitem id="XEP0001" type="standard" schema-version="v1.2.8">
+=> "<bibitem id="XEP0001" type="standard" schema-version="v1.2.9">
       <fetched>2023-07-18</fetched>
       <title format="text/plain" language="en" script="Latn">XMPP Extension Protocols</title>
       ...
@@ -78,7 +78,7 @@ With argument `bibdata: true` it outputs XML wrapped by `bibdata` element and ad
 [source,ruby]
 ----
 item.to_xml bibdata: true
-=> "<bibdata type="standard" schema-version="v1.2.8">
+=> "<bibdata type="standard" schema-version="v1.2.9">
       <fetched>2023-07-18</fetched>
       <title format="text/plain" language="en" script="Latn">XMPP Extension Protocols</title>
       ...
