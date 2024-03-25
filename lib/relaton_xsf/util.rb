@@ -1,9 +1,6 @@
 module RelatonXsf
   module Util
     extend RelatonBib::Util
-
-    def self.logger
-      RelatonXsf.configuration.logger
-    end
+    PROGNAME = "relaton-xsf".freeze
   end
 end
