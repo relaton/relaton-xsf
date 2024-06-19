@@ -1,12 +1,12 @@
 <bibdata type="standard" schema-version="v1.2.8">
-  <fetched>2023-11-08</fetched>
+  <fetched>2024-06-18</fetched>
   <title format="text/plain" language="en" script="Latn">XMPP Extension Protocols</title>
   <uri type="src">http://xmpp.org/extensions/xep-0001.html</uri>
   <docidentifier type="XEP" primary="true">XEP 0001</docidentifier>
   <docidentifier type="XEP" scope="anchor">XEP-0001</docidentifier>
   <docnumber>XEP-0001</docnumber>
   <date type="published">
-    <on>2021-08-24</on>
+    <on>2024-03-11</on>
   </date>
   <contributor>
     <role type="author"/>
