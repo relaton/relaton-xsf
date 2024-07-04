@@ -38,24 +38,13 @@ Or install it yourself as:
 
 == Usage
 
-=== Configuration
-
-Configuration is optional. The available option is `logger` which is a `Logger` instance. By default, the logger is `Logger.new($stderr)` with `Logger::WARN` level. To change the logger level, use `RelatonXsf.configure` block.
+=== Search for a standard using keywords
 
 [source,ruby]
 ----
 require 'relaton_xsf'
 => true
 
-RelatonXsf.configure do |config|
-  config.logger.level = Logger::DEBUG
-end
-----
-
-=== Search for a standard using keywords
-
-[source,ruby]
-----
 hit_collection = RelatonXsf::Bibliography.search("XEP 0001")
 => <RelatonXsf::HitCollection:0x00000000019780 @ref=XEP 0001 @fetched=false>
 
@@ -133,6 +122,10 @@ Stopped at: 2021-09-01 18:01:43 +0200
 Done in: 42 sec.
 => nil
 ----
+
+=== Logging
+
+RelatonXsf uses the relaton-logger gem for logging. By default, it logs to STDOUT. To change the log levels and add other loggers, read the https://github.com/relaton/relaton-logger#usage[relaton-logger] documentation.
 
 == Development
 
