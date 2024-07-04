@@ -39,7 +39,7 @@ module RelatonXsf
       id = bib.docidentifier.find(&:primary).id
       file = File.join @output, "#{id.gsub(' ', '-').downcase}.#{@ext}"
       if @files.include? file
-        warn "WARNING: #{file} already exists"
+        Util.warn "#{file} already exists"
       end
       File.write file, serialize(bib), encoding: "UTF-8"
       @files << file

@@ -1,6 +1,4 @@
 describe RelatonXsf::Bibliography do
-  before { RelatonXsf.instance_variable_set :@configuration, nil }
-
   context "get" do
     it "successful", vcr: "get_successful" do
       expect do
@@ -14,15 +12,15 @@ describe RelatonXsf::Bibliography do
           /(?<=<fetched>)\d{4}-\d{2}-\d{2}/, Date.today.to_s
         )
       end.to output(
-        include("[relaton-xsf] (XEP 0001) Fetching from Relaton repository ...",
-                "[relaton-xsf] (XEP 0001) Found: `XEP 0001`"),
-      ).to_stderr
+        include("[relaton-xsf] INFO: (XEP 0001) Fetching from Relaton repository ...",
+                "[relaton-xsf] INFO: (XEP 0001) Found: `XEP 0001`"),
+      ).to_stderr_from_any_process
     end
 
     it "not found", vcr: "get_not_found" do
       expect { RelatonXsf::Bibliography.get "XEP nope" }.to output(
-        /\[relaton-xsf\] \(XEP nope\) Not found\./,
-      ).to_stderr
+        /\[relaton-xsf\] INFO: \(XEP nope\) Not found\./,
+      ).to_stderr_from_any_process
     end
   end
 end
