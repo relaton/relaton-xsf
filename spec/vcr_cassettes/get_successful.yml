@@ -21,7 +21,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '2560'
+      - '2571'
       Cache-Control:
       - max-age=300
       Content-Security-Policy:
@@ -29,7 +29,7 @@ http_interactions:
       Content-Type:
       - application/zip
       Etag:
-      - W/"295e6d0033b88cabf49492fcd3148079227cd52244293601783a09092d2c5bca"
+      - W/"c629a25e3c0913685ffeda69a09a4301e3159db6cc5734d9d654837c4665cb98"
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
@@ -39,21 +39,21 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Github-Request-Id:
-      - C7EB:261529:37C99E:3D1D8E:6758D9EB
+      - F59B:3A376D:A9FBCA:D83A51:67C8D62F
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 11 Dec 2024 00:16:43 GMT
+      - Wed, 05 Mar 2025 22:54:39 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-iad-kjyo7100093-IAD
+      - cache-iad-kjyo7100040-IAD
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1733876204.680586,VS0,VE116
+      - S1741215280.522712,VS0,VE95
       Vary:
       - Authorization,Accept-Encoding,Origin
       Access-Control-Allow-Origin:
@@ -61,16 +61,16 @@ http_interactions:
       Cross-Origin-Resource-Policy:
       - cross-origin
       X-Fastly-Request-Id:
-      - bd7b3eaccb32af78f539df808ddbcb454f3557d4
+      - a17cb4e34d3ad8a4a076bf8b66dc343f503bc6d9
       Expires:
-      - Wed, 11 Dec 2024 00:21:43 GMT
+      - Wed, 05 Mar 2025 22:59:39 GMT
       Source-Age:
       - '0'
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        UEsDBBQAAAAIAI9yg1mjn7tiUAkAAFBWAAANABwAaW5kZXgtdjEueWFtbFVU
-        CQADrhNPZ64TT2d1eAsAAQTpAwAABH8AAABt2LsKLgYVhNE+T3Fe4OjZM/Pf
+        UEsDBBQAAAAIAFlyOVp+mYORWwkAAKhWAAANABwAaW5kZXgtdjEueWFtbFVU
+        CQADyfKUZ8nylGd1eAsAAQTpAwAABHYAAABt2LsKLgYVhNE+T3Fe4OjZM/Pf
         0gmmFMTKNpAIgoKIhb69Bjtdu9xM93Xr69ev33398v2ff/r+yx9/+P2Xb9++
         3Xdfvnz/pz//5efvv/z04z9+/PU/f/7b11/ev/rXj3/9y/9s4220rbfVdt5O
         24e3D22f3j61fXn70vbt7Vvbj7cfbO8bt/dNW3c7dTt3O3U7dzt1O3c7dTt3
@@ -122,11 +122,12 @@ http_interactions:
         ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9
         ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9
         ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9
-        ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL3nYSx7wkj/88Jvf
-        /u4HrP/+848//fXn/9v/8z+H9S/v/27/DVBLAQIeAxQAAAAIAI9yg1mjn7ti
-        UAkAAFBWAAANABgAAAAAAAEAAACkgQAAAABpbmRleC12MS55YW1sVVQFAAOu
-        E09ndXgLAAEE6QMAAAR/AAAAUEsFBgAAAAABAAEAUwAAAJcJAAAAAA==
-  recorded_at: Wed, 11 Dec 2024 00:16:43 GMT
+        ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL5m9ZPKS2UsmL3nYSx7ykoe95CEv
+        edhLHvCSP/zwm9/+7ges//7zjz/99ef/2//zP4f1L+//bv8NUEsBAh4DFAAA
+        AAgAWXI5Wn6Zg5FbCQAAqFYAAA0AGAAAAAAAAQAAAKSBAAAAAGluZGV4LXYx
+        LnlhbWxVVAUAA8nylGd1eAsAAQTpAwAABHYAAABQSwUGAAAAAAEAAQBTAAAA
+        ogkAAAAA
+  recorded_at: Wed, 05 Mar 2025 22:54:39 GMT
 - request:
     method: get
     uri: https://raw.githubusercontent.com/relaton/relaton-data-xsf/main/data/xep-0001.yaml
@@ -139,7 +140,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.12.2 Ruby/3.3.3p89 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.14.0 Ruby/3.3.3p89 (http://github.com/sparklemotion/mechanize/)
       Accept-Language:
       - en-us,en;q=0.5
       Host:
@@ -156,7 +157,7 @@ http_interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '541'
+      - '545'
       Cache-Control:
       - max-age=300
       Content-Security-Policy:
@@ -164,7 +165,7 @@ http_interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Etag:
-      - W/"1efe49c4f477584fb1be5e0f3dc7dd173c9889b51f1e78b10ecd3a0fd1dac940"
+      - W/"b871eab8e00e5a6f369cfa6bb852d937caff25f90ecbae1dae04799d8ba0fe5d"
       Strict-Transport-Security:
       - max-age=31536000
       X-Content-Type-Options:
@@ -174,23 +175,23 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Github-Request-Id:
-      - 6956:277BC6:4D5A2:56EF9:6758D9E9
+      - DD70:349A37:E9CA2:1262AA:67C8D646
       Content-Encoding:
       - gzip
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 11 Dec 2024 00:16:44 GMT
+      - Wed, 05 Mar 2025 22:55:03 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-iad-kjyo7100033-IAD
+      - cache-iad-kjyo7100098-IAD
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1733876204.939085,VS0,VE100
+      - S1741215303.957639,VS0,VE100
       Vary:
       - Authorization,Accept-Encoding,Origin
       Access-Control-Allow-Origin:
@@ -198,26 +199,26 @@ http_interactions:
       Cross-Origin-Resource-Policy:
       - cross-origin
       X-Fastly-Request-Id:
-      - 635719b6a2bd68df5f0aed51fc8378a52bad3b98
+      - bd8ac3bc1db7568a506f1dc756128dc94d23ed90
       Expires:
-      - Wed, 11 Dec 2024 00:21:44 GMT
+      - Wed, 05 Mar 2025 23:00:03 GMT
       Source-Age:
       - '0'
     body:
       encoding: ASCII-8BIT
       base64_string: |
-        H4sIAAAAAAAAA81VuY7bMBDt+RXsXEk+kiaqHMSbKgsI3ma7gKZmLWZ5YUgJ
-        3r/PUJJlObCBCDCQqBE5xxsOHzEvyzIWZA1GZC1gUM4WvF3nm/wLU1XBX5/K
-        1Wq1ZlFFDQXLuHQ2go3keS5L/nSiTUriJbropNOBca6FPTbiSPGcZxws/YJE
-        5WNv+CFiMr05NIKAIpzi0muhLNPKvl8VqWP0xXJ5Mt7nDo9LONcLyxP4LB0t
-        r6PRBBc/PBQ8oGTDKgpbCaxY5SR1QqhDP7xr6JxABlp7VEbgBx0GG7iEZjdC
-        g3RpI6ysHSZw25gD4CS+ErG7qj7LNwetQg0V5bZCN2RabFabz9nqU7ZeL1jq
-        FdWhiQ5TkicSiAMK5twKA/2K86NqwZ433eXB1J3udby10XZNxSWyo+T8Kaui
-        Errg5RSdqIlQ/RycYZo/1inzv68UGrw+74jyQszH7KutENh9sAmUdMZriHAH
-        ryQXzkVN2ULG3kNWI5ROb8gnsO3wz5UhPzo9vOyeYNHE9BL+KXW7udTtHkLd
-        N1QVJVcP4W0nWpiFeJuzimC2NWjtPOG4nKr+p6Tt55K2fwhpz6B+AT6Esr3Q
-        vp4BeJsxTChmq95z29ynCqHtBuv19LwU64qcZWYQmQCoIFxmsUkiQ+O8F7Or
-        Vl5fvg8D/s8OxtNfNGyiYjd1jJ7SIAqLpAiLJBPdCUYtwTfJfgM1laV7ewcA
-        AA==
-  recorded_at: Wed, 11 Dec 2024 00:16:43 GMT
+        H4sIAAAAAAAAA81VuY7bMBDt+RXsXEk+kiaqHMSbKgsI3ma7gBZnLWZ5YUgJ
+        3r/PUIctBzYQAQYSNSLneHM8YibLMhaqGozIWsCgnC14u843+RemZMFfn8rV
+        arVmUUUNBct45WwEG0nzXJb86USX5MRLdNFVTgfGuRb22Igj2XOecbD0CxUq
+        H3vBDxGT6M2hEQQU4RSXXgtlmVb2/SpIHaMvlsuT8T53eFzCGC8sT+CzlFpe
+        R6MJLn54KHjAig2nKKwUKJl0FVVCqEM9vCtodCABnT0qI/CDksEGLqbZDdNQ
+        uXQRtqodJnDbmAPgxF6K2LWq9/LNQatQgyTfVuiGRIvNavM5W33K1usFS7Wi
+        OjTRYXLyRAJxQMacW2GgP3F+VC3Y8dI1D6bq1Nexa2fRNRMXw46R8VNWRSV0
+        wcspODETQf4clGHqfyanzP8+UmjwOt0zygsRH7OvViKw+2ATqMoZryHCHbyS
+        VDgXNXmLamgdSY1QOj0hn8C2wz9XhvTo9PCwe35FE9ND+JfM7eYyt3sIc99Q
+        SXKWD6FtJ1qYhXibMkkw2xq0dp5wXE5R/0/O9nM52z+Es2dQvwAfwtheaF/P
+        ALxNGCYUs1XvuW3uM4XQdlP1enRegnVBxh0zbJgAqCBcBrFJG4Zmeb/Jrkp5
+        ffk+TPc/Kzhnf1lgkxV2c4nRSxo2wiKtgwUjVfKjVdEl0vn1KeFbxX4DWJNc
+        9IEHAAA=
+  recorded_at: Wed, 05 Mar 2025 22:55:02 GMT
 recorded_with: VCR 6.3.1
