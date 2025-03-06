@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/relaton_xsf/version"
+require_relative "lib/relaton/xsf/version"
 
 Gem::Specification.new do |spec|
   spec.name = "relaton-xsf"
-  spec.version = RelatonXsf::VERSION
+  spec.version = Relaton::Xsf::VERSION
   spec.authors = ["Ribose Inc."]
   spec.email = ["open.source@ribose.com"]
 
-  spec.summary = "RelatonIso: retrieve ISO Standards for bibliographic use " \
+  spec.summary = "Relaton::Xsf: retrieve ISO Standards for bibliographic use " \
                  "using the IsoBibliographicItem model"
-  spec.description = "RelatonIso: retrieve ISO Standards for bibliographic use " \
+  spec.description = "Relaton::Xsf: retrieve ISO Standards for bibliographic use " \
                      "using the IsoBibliographicItem model"
   spec.homepage = "https://github.com/relaton/relaton-xsf"
   spec.license = "BSD-2-Clause"
@@ -37,7 +37,7 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "example-gem", "~> 1.0"
 
   spec.add_dependency "mechanize", "~> 2.10"
-  spec.add_dependency "relaton-bib", "~> 1.20.0"
+  spec.add_dependency "relaton-bib", "~> 2.0.0-alpha.1"
   spec.add_dependency "relaton-index", "~> 0.2.0"
 
   # For more information and examples about making a new gem, check out our
